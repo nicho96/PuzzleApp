@@ -14,6 +14,9 @@
 		67A8ED6B1E68EAF400772296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A8ED691E68EAF400772296 /* LaunchScreen.storyboard */; };
 		67A8ED761E68EAF400772296 /* PuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8ED751E68EAF400772296 /* PuzzleTests.swift */; };
 		67A8ED811E68EAF400772296 /* PuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8ED801E68EAF400772296 /* PuzzleUITests.swift */; };
+		67A8ED8F1E68ED1400772296 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A8ED8E1E68ED1400772296 /* image.png */; };
+		67A8ED911E68EFD100772296 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8ED901E68EFD100772296 /* Puzzle.swift */; };
+		67A8ED931E68F7BE00772296 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8ED921E68F7BE00772296 /* SlideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		67A8ED7C1E68EAF400772296 /* PuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A8ED801E68EAF400772296 /* PuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleUITests.swift; sourceTree = "<group>"; };
 		67A8ED821E68EAF400772296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A8ED8E1E68ED1400772296 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		67A8ED901E68EFD100772296 /* Puzzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		67A8ED921E68F7BE00772296 /* SlideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +103,13 @@
 		67A8ED5F1E68EAF400772296 /* Puzzle */ = {
 			isa = PBXGroup;
 			children = (
+				67A8ED8E1E68ED1400772296 /* image.png */,
 				67A8ED601E68EAF400772296 /* AppDelegate.swift */,
 				67A8ED621E68EAF400772296 /* ViewController.swift */,
+				67A8ED921E68F7BE00772296 /* SlideView.swift */,
 				67A8ED641E68EAF400772296 /* Main.storyboard */,
 				67A8ED671E68EAF400772296 /* Assets.xcassets */,
+				67A8ED901E68EFD100772296 /* Puzzle.swift */,
 				67A8ED691E68EAF400772296 /* LaunchScreen.storyboard */,
 				67A8ED6C1E68EAF400772296 /* Info.plist */,
 			);
@@ -238,6 +247,7 @@
 				67A8ED6B1E68EAF400772296 /* LaunchScreen.storyboard in Resources */,
 				67A8ED681E68EAF400772296 /* Assets.xcassets in Resources */,
 				67A8ED661E68EAF400772296 /* Main.storyboard in Resources */,
+				67A8ED8F1E68ED1400772296 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A8ED911E68EFD100772296 /* Puzzle.swift in Sources */,
 				67A8ED631E68EAF400772296 /* ViewController.swift in Sources */,
+				67A8ED931E68F7BE00772296 /* SlideView.swift in Sources */,
 				67A8ED611E68EAF400772296 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
